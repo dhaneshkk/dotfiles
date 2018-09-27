@@ -1,5 +1,5 @@
 # README
 
-* This Repo uses **stow** command for depolying dot files
+A repository of my personal configuration files. You can install these using stow.
 
-* sh ./setup.sh
+Example: stow bash will sym link the files in the bash/ directory to the correct place in $HOME.
