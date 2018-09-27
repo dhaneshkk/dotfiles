@@ -1,0 +1,39 @@
+{
+	"name": "vscode-languagetool-ta",
+	"displayName": "Tamil Support for LanguageTool",
+	"version": "3.8.0",
+	"description": "Enables grammar checking of Tamil in LanguageTool for Visual Studio Code.",
+	"icon": "img/png/LanguageTool-Icon-ta.png",
+	"author": "Adam Voss",
+	"publisher": "adamvoss",
+	"preview": true,
+	"extensionDependencies": [
+		"adamvoss.vscode-languagetool"
+	],
+	"repository": {
+		"url": "https://github.com/adamvoss/vscode-languagetool"
+	},
+	"license": "Apache-2.0",
+	"engines": {
+		"vscode": "^1.8.0"
+	},
+	"galleryBanner": {
+		"color": "#6565f6",
+		"theme": "light"
+	},
+	"keywords": [
+		"spell",
+		"grammar",
+		"proofread",
+		"grammar-checker",
+		"Tamil"
+	],
+	"categories": [
+		"Other"
+	],
+	"__metadata": {
+		"id": "51d448ec-a32c-49be-8725-3e15cc60d73d",
+		"publisherId": "bcc84b7b-7923-41b3-80e2-0dce99cc0f2f",
+		"publisherDisplayName": "Adam Voss"
+	}
+}

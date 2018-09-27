@@ -1,0 +1,223 @@
+{
+	"name": "vscode-kanban",
+	"displayName": "Kanban",
+	"description": "Kanban board for Visual Studio Code.",
+	"version": "1.22.0",
+	"publisher": "mkloubert",
+	"engines": {
+		"vscode": "^1.23.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"Kanban",
+		"Project",
+		"Management",
+		"Todo",
+		"Toggl",
+		"multi-root ready"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.kanban.openBoard",
+				"title": "Open Board ...",
+				"category": "Kanban"
+			}
+		],
+		"configuration": {
+			"properties": {
+				"kanban": {
+					"type": "object",
+					"scope": "resource",
+					"properties": {
+						"canExecute": {
+							"description": "Indicates if a button should be shown in each card, which can execute a 'onExecute' function in 'vscode-kanban.js' file.",
+							"type": "boolean",
+							"default": false
+						},
+						"cleanupExports": {
+							"description": "Remove existing export files, before regenerate them.",
+							"type": "boolean",
+							"default": true
+						},
+						"columns": {
+							"description": "Column settings.",
+							"type": "object",
+							"properties": {
+								"done": {
+									"description": "The custom (display) name for the column 'Done'.",
+									"type": "string"
+								},
+								"inProgress": {
+									"description": "The custom (display) name for the column 'In Progress'.",
+									"type": "string"
+								},
+								"testing": {
+									"description": "The custom (display) name for the column 'Testing'.",
+									"type": "string"
+								},
+								"todo": {
+									"description": "The custom (display) name for the column 'Todo'.",
+									"type": "string"
+								}
+							}
+						},
+						"exportOnSave": {
+							"description": "Export cards to external Markdown files on save or not.",
+							"type": "boolean",
+							"default": false
+						},
+						"exportPath": {
+							"description": "The custom path where export files, like cards, should be stored. Relative paths will be mapped to the '.vscode' subfolder of the underlying workspace.",
+							"type": "string"
+						},
+						"maxExportNameLength": {
+							"description": "The maximum size of the name of an export file.",
+							"type": "integer",
+							"minimum": 1,
+							"default": 48
+						},
+						"globals": {
+							"description": "Any data, which can be accessed inside the whole extension context, like scripts, e.g."
+						},
+						"noScmUser": {
+							"description": "Do not detect username via source control manager like Git.",
+							"type": "boolean",
+							"default": false
+						},
+						"noSystemUser": {
+							"description": "Do not detect username of operating system.",
+							"type": "boolean",
+							"default": false
+						},
+						"noTimeTrackingIfIdle": {
+							"description": "Do not show 'track time' button, if a card is stored in 'Todo' or 'Done'.",
+							"type": "boolean",
+							"default": false
+						},
+						"openOnStartup": {
+							"description": "Open the board for that workspace on startup or not.",
+							"type": "boolean",
+							"default": false
+						},
+						"simpleIDs": {
+							"description": "Use integer values as IDs for cards instead.",
+							"type": "boolean",
+							"default": true
+						},
+						"trackTime": {
+							"description": "Settings for 'time tracking' feature.",
+							"oneOf": [
+								{
+									"description": "Enable (simple) time tracking or not.",
+									"type": "boolean",
+									"default": false
+								},
+								{
+									"description": "Settings for tracking time via 'onTrackTime' of 'vscode-kanban.js' file.",
+									"type": "object",
+									"properties": {
+										"options": {
+											"description": "Options / data for the execution of the function."
+										},
+										"type": {
+											"description": "The type.",
+											"type": "string",
+											"enum": [
+												"",
+												"script"
+											]
+										}
+									}
+								},
+								{
+									"description": "Settings for tracking time via Toggle.com",
+									"type": "object",
+									"properties": {
+										"project": {
+											"description": "The ID of the project.",
+											"type": "integer"
+										},
+										"token": {
+											"description": "The personal API token or the path to a text file, that contains it.",
+											"type": "string"
+										},
+										"type": {
+											"description": "The type.",
+											"type": "string",
+											"enum": [
+												"toggl",
+												"toggle"
+											]
+										}
+									},
+									"required": [
+										"token"
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"icon": "icon.png",
+	"badges": [
+		{
+			"description": "PayPal Donate",
+			"url": "https://img.shields.io/badge/Donate-PayPal-green.svg",
+			"href": "https://paypal.me/MarcelKloubert"
+		}
+	],
+	"author": {
+		"name": "Marcel Joachim Kloubert"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mkloubert/vscode-kanban"
+	},
+	"bugs": {
+		"url": "https://github.com/mkloubert/vscode-kanban/issues"
+	},
+	"readmeFilename": "README.md",
+	"devDependencies": {
+		"@types/fs-extra": "5.0.2",
+		"@types/html-entities": "^1.2.16",
+		"@types/lodash": "^4.14.116",
+		"@types/marked": "^0.3.0",
+		"@types/mocha": "^2.2.42",
+		"@types/node": "^7.0.69",
+		"@types/sanitize-filename": "^1.1.28",
+		"tslint": "^5.11.0",
+		"typescript": "2.8.3",
+		"vscode": "^1.1.21"
+	},
+	"dependencies": {
+		"fs-extra": "^6.0.1",
+		"html-entities": "^1.2.1",
+		"humanize-duration": "^3.15.1",
+		"lodash": "^4.17.10",
+		"marked": "^0.4.0",
+		"sanitize-filename": "^1.6.1",
+		"vscode-helpers": "^2.12.0"
+	},
+	"__metadata": {
+		"id": "6f6d8ad0-db82-4c88-9788-b5b7320f3f83",
+		"publisherId": "cdf2f5e9-e32c-446c-9ed5-f4c4be300887",
+		"publisherDisplayName": "Marcel J. Kloubert"
+	}
+}

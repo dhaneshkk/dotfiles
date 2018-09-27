@@ -1,0 +1,487 @@
+[00:00:00] Start: 2018-09-20T07:20:58
+[00:00:00.0606746] GetCurrentSearchPaths: /home/dhanesh/anaconda3/envs/spacy/bin/python, /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/database.path
+[00:00:00.9603373] SearchPaths: /home/dhanesh/anaconda3/envs/spacy/lib/python3.6, /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/lib-dynload, /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:01.0657340] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py
+[00:00:01.5379841] Scrape: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py:994: InspectWarning: attribute __abstractmethods__ on <class 'type'> was in dir() but not getattr()
+[00:00:01.5379909] Scrape:   warnings.warn("attribute " + name + " on " + repr(mod) + " was in dir() but not getattr()", InspectWarning)
+[00:00:01.8494252] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python.pyi
+[00:00:02.2699168] ImportNotFound: 1.lesson
+[00:00:02.2699978] ImportNotFound: 1.lesson
+[00:00:02.5120514] RecursiveImport: spacy
+[00:00:02.6755149] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 array /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/lib-dynload
+[00:00:02.7651032] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/GkxY9_lcYmIcd_IM0lO1Y1uRal5aLHab-CMjxIorRfQ=/array.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:02.8508832] ImportBuiltins: _weakref, bin/python
+[00:00:02.8545171] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _weakref
+[00:00:03.0521136] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python._weakref.pyi
+[00:00:03.0854358] ImportBuiltins: sys, bin/python
+[00:00:03.0864532] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 sys
+[00:00:03.3245702] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python.sys.pyi
+[00:00:03.3274290] ImportBuiltins: _io, bin/python
+[00:00:03.3290308] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _io
+[00:00:03.5687694] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python._io.pyi
+[00:00:03.5758837] ImportNotFound: _io.UnsupportedOperation
+[00:00:03.5953114] RecursiveImport: types
+[00:00:03.5954954] ImportNotFound: types.TracebackType
+[00:00:03.5982952] UndefinedImport: importlib, [util, Microsoft.PythonTools.Parsing.Ast.NameExpression:util]
+[00:00:03.6006501] RecursiveImport: types
+[00:00:03.6006713] RecursiveImport: importlib.abc
+[00:00:03.6008446] ImportNotFound: importlib.abc.Loader
+[00:00:03.6047752] ImportNotFound: _frozen_importlib_external
+[00:00:03.6049844] ImportNotFound: importlib._frozen_importlib_external
+[00:00:03.6092901] ImportNotFound: _importlib_modulespec
+[00:00:03.6094869] ImportNotFound: importlib._importlib_modulespec
+[00:00:03.6096043] ImportNotFound: _importlib_modulespec.Loader
+[00:00:03.6097083] RecursiveImport: types
+[00:00:03.6099995] ImportNotFound: _importlib_modulespec
+[00:00:03.6100017] ImportNotFound: importlib._importlib_modulespec
+[00:00:03.6101247] ImportNotFound: _importlib_modulespec.ModuleSpec
+[00:00:03.6103072] ImportNotFound: types.ModuleType
+[00:00:03.6113789] ImportNotFound: types.FrameType
+[00:00:03.6318554] ImportBuiltins: _codecs, bin/python
+[00:00:03.6330818] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _codecs
+[00:00:03.8217653] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python._codecs.pyi
+[00:00:03.8312880] RecursiveImport: codecs
+[00:00:03.8900899] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _heapq /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/lib-dynload
+[00:00:03.9895062] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/GkxY9_lcYmIcd_IM0lO1Y1uRal5aLHab-CMjxIorRfQ=/_heapq.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:04.0007851] ImportBuiltins: itertools, bin/python
+[00:00:04.0018646] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 itertools
+[00:00:04.1543357] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python.itertools.pyi
+[00:00:04.2429455] ImportBuiltins: posix, bin/python
+[00:00:04.2442500] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 posix
+[00:00:04.5466023] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python.posix.pyi
+[00:00:04.5506023] RecursiveImport: os
+[00:00:04.5573337] ImportNotFound: nt
+[00:00:04.5648360] RecursiveImport: os
+[00:00:04.5680599] ImportBuiltins: _stat, bin/python
+[00:00:04.5694110] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _stat
+[00:00:04.7534224] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python._stat.pyi
+[00:00:04.7631130] RecursiveImport: os
+[00:00:04.7787010] ImportNotFound: nt
+[00:00:04.7788477] ImportNotFound: nt._getfinalpathname
+[00:00:04.7788908] RecursiveImport: os
+[00:00:04.7796330] ImportNotFound: nt
+[00:00:04.7797381] ImportNotFound: nt._getfullpathname
+[00:00:04.7841044] ImportNotFound: os.path
+[00:00:04.7851580] ImportNotFound: os.path.curdir
+[00:00:04.7857419] ImportNotFound: os.path.defpath
+[00:00:04.7926303] ImportNotFound: 
+[00:00:04.7927616] ImportNotFound: .path
+[00:00:04.7930253] ImportNotFound: builtins._PathLike
+[00:00:04.8069939] ImportBuiltins: _functools, bin/python
+[00:00:04.8082827] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _functools
+[00:00:04.9820016] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python._functools.pyi
+[00:00:05.0348897] ImportBuiltins: _sre, bin/python
+[00:00:05.0361666] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _sre
+[00:00:05.2270652] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python._sre.pyi
+[00:00:05.2876003] ImportNotFound: cupy.cuda.stream
+[00:00:05.2877401] ImportNotFound: spacy.cupy.cuda.stream
+[00:00:05.2878376] ImportNotFound: cupy.cuda.stream.Stream
+[00:00:05.3056667] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 numpy.core.umath /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:06.4814633] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/dDJOFTb5bZznR8RzTHCNEsYvVPXQdhIsx_zHwQAVJks=/umath.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:06.5004838] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 numpy.core.multiarray /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:07.2180764] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/dDJOFTb5bZznR8RzTHCNEsYvVPXQdhIsx_zHwQAVJks=/multiarray.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:07.2402452] ImportNotFound: numpy.core.numerictypes.bool_
+[00:00:07.2669018] ImportBuiltins: _warnings, bin/python
+[00:00:07.2687310] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _warnings
+[00:00:07.4789572] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python._warnings.pyi
+[00:00:07.4886191] ImportNotFound: _importlib_modulespec
+[00:00:07.4888189] ImportNotFound: _importlib_modulespec.ModuleType
+[00:00:07.4972040] RecursiveImport: numpy.core
+[00:00:07.4976359] RecursiveImport: numpy.core.numeric
+[00:00:07.4978428] ImportNotFound: numpy.core.numeric.asarray
+[00:00:07.4981941] ImportNotFound: numpy.core.numeric.asanyarray
+[00:00:07.4983015] RecursiveImport: numpy.core
+[00:00:07.4983206] RecursiveImport: numpy.core
+[00:00:07.4984932] ImportNotFound: numpy.core.numeric.concatenate
+[00:00:07.4986621] RecursiveImport: numpy.core
+[00:00:07.4995679] RecursiveImport: numpy.core
+[00:00:07.4997617] RecursiveImport: numpy.core.numeric
+[00:00:07.4997660] ImportNotFound: numpy.core.numeric.asanyarray
+[00:00:07.4997832] RecursiveImport: numpy.core
+[00:00:07.5004569] RecursiveImport: numpy
+[00:00:07.5004615] RecursiveImport: numpy
+[00:00:07.5007689] ImportNotFound: numpy.VisibleDeprecationWarning
+[00:00:07.5009220] ImportNotFound: numpy.core.numeric.array
+[00:00:07.5115691] ImportBuiltins: _collections, bin/python
+[00:00:07.5136378] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _collections
+[00:00:07.7511570] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python._collections.pyi
+[00:00:07.7542059] ImportNotFound: _collections.defaultdict
+[00:00:07.7962577] RecursiveImport: numpy
+[00:00:07.7963076] RecursiveImport: numpy.core.numeric
+[00:00:07.7963168] ImportNotFound: numpy.core.numeric.concatenate
+[00:00:07.7965804] ImportNotFound: numpy.core.numeric.asarray
+[00:00:07.7978084] RecursiveImport: numpy.core
+[00:00:07.7981725] RecursiveImport: numpy.core
+[00:00:07.7984886] ImportNotFound: numpy.core.numeric.errstate
+[00:00:07.7987303] ImportNotFound: numpy.core.numerictypes.longlong
+[00:00:07.7989799] ImportNotFound: numpy.core.numerictypes.intc
+[00:00:07.7992007] ImportNotFound: numpy.core.numerictypes.int_
+[00:00:07.7994103] ImportNotFound: numpy.core.numerictypes.float_
+[00:00:07.7996989] ImportNotFound: numpy.core.numerictypes.complex_
+[00:00:07.7997301] ImportNotFound: numpy.core.numerictypes.bool_
+[00:00:07.7999936] ImportNotFound: numpy.core.numerictypes.flexible
+[00:00:07.8457968] ImportBuiltins: _locale, bin/python
+[00:00:07.8599711] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _locale
+[00:00:08.0609098] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python._locale.pyi
+[00:00:08.0634420] RecursiveImport: locale
+[00:00:08.0654243] RecursiveImport: encodings
+[00:00:08.0841085] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _decimal /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/lib-dynload
+[00:00:08.2374369] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/GkxY9_lcYmIcd_IM0lO1Y1uRal5aLHab-CMjxIorRfQ=/_decimal.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:08.2970720] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 math /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/lib-dynload
+[00:00:08.4728110] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/GkxY9_lcYmIcd_IM0lO1Y1uRal5aLHab-CMjxIorRfQ=/math.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:08.4908515] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _struct /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/lib-dynload
+[00:00:08.5558193] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/GkxY9_lcYmIcd_IM0lO1Y1uRal5aLHab-CMjxIorRfQ=/_struct.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:08.5578226] RecursiveImport: struct
+[00:00:08.6161142] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _pickle /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/lib-dynload
+[00:00:08.8070601] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/GkxY9_lcYmIcd_IM0lO1Y1uRal5aLHab-CMjxIorRfQ=/_pickle.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:08.8259964] ImportNotFound: cPickle
+[00:00:08.8262311] ImportNotFound: numpy.core.cPickle
+[00:00:08.8265754] RecursiveImport: numpy
+[00:00:08.8272791] RecursiveImport: numpy.core
+[00:00:08.8308929] ImportBuiltins: _operator, bin/python
+[00:00:08.8319014] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _operator
+[00:00:08.9065385] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python._operator.pyi
+[00:00:08.9085011] RecursiveImport: operator
+[00:00:08.9111390] RecursiveImport: operator
+[00:00:08.9112950] ImportNotFound: operator.abs
+[00:00:08.9114131] ImportNotFound: operator.add
+[00:00:08.9115323] ImportNotFound: operator.and_
+[00:00:08.9117116] ImportNotFound: operator.attrgetter
+[00:00:08.9118236] ImportNotFound: operator.concat
+[00:00:08.9119355] ImportNotFound: operator.contains
+[00:00:08.9120524] ImportNotFound: operator.countOf
+[00:00:08.9121676] ImportNotFound: operator.delitem
+[00:00:08.9122836] ImportNotFound: operator.eq
+[00:00:08.9123952] ImportNotFound: operator.floordiv
+[00:00:08.9125053] ImportNotFound: operator.ge
+[00:00:08.9126156] ImportNotFound: operator.getitem
+[00:00:08.9127484] ImportNotFound: operator.gt
+[00:00:08.9128585] ImportNotFound: operator.iadd
+[00:00:08.9129698] ImportNotFound: operator.iand
+[00:00:08.9130794] ImportNotFound: operator.iconcat
+[00:00:08.9131920] ImportNotFound: operator.ifloordiv
+[00:00:08.9133013] ImportNotFound: operator.ilshift
+[00:00:08.9133150] RecursiveImport: operator
+[00:00:08.9134120] ImportNotFound: operator.imatmul
+[00:00:08.9135210] ImportNotFound: operator.imod
+[00:00:08.9136254] ImportNotFound: operator.imul
+[00:00:08.9137368] ImportNotFound: operator.index
+[00:00:08.9138462] ImportNotFound: operator.indexOf
+[00:00:08.9139540] ImportNotFound: operator.inv
+[00:00:08.9140626] ImportNotFound: operator.invert
+[00:00:08.9141708] ImportNotFound: operator.ior
+[00:00:08.9143142] ImportNotFound: operator.ipow
+[00:00:08.9144405] ImportNotFound: operator.irshift
+[00:00:08.9146497] ImportNotFound: operator.is_
+[00:00:08.9148123] ImportNotFound: operator.is_not
+[00:00:08.9149425] ImportNotFound: operator.isub
+[00:00:08.9150535] ImportNotFound: operator.itemgetter
+[00:00:08.9151641] ImportNotFound: operator.itruediv
+[00:00:08.9152730] ImportNotFound: operator.ixor
+[00:00:08.9153818] ImportNotFound: operator.le
+[00:00:08.9154954] ImportNotFound: operator.length_hint
+[00:00:08.9156403] ImportNotFound: operator.lshift
+[00:00:08.9157498] ImportNotFound: operator.lt
+[00:00:08.9158829] ImportNotFound: operator.matmul
+[00:00:08.9160057] ImportNotFound: operator.methodcaller
+[00:00:08.9161145] ImportNotFound: operator.mod
+[00:00:08.9162219] ImportNotFound: operator.mul
+[00:00:08.9163296] ImportNotFound: operator.ne
+[00:00:08.9164373] ImportNotFound: operator.neg
+[00:00:08.9165466] ImportNotFound: operator.not_
+[00:00:08.9166653] ImportNotFound: operator.or_
+[00:00:08.9167874] ImportNotFound: operator.pos
+[00:00:08.9168963] ImportNotFound: operator.pow
+[00:00:08.9170020] ImportNotFound: operator.rshift
+[00:00:08.9171128] ImportNotFound: operator.setitem
+[00:00:08.9172213] ImportNotFound: operator.sub
+[00:00:08.9173412] ImportNotFound: operator.truediv
+[00:00:08.9174598] ImportNotFound: operator.truth
+[00:00:08.9175701] ImportNotFound: operator.xor
+[00:00:08.9262819] ImportNotFound: numpy.core.multiarray.newbuffer
+[00:00:08.9264233] ImportNotFound: numpy.core.multiarray.getbuffer
+[00:00:08.9264453] RecursiveImport: numpy.core
+[00:00:08.9264542] ImportNotFound: numpy.core.numerictypes.longlong
+[00:00:08.9264579] ImportNotFound: numpy.core.numerictypes.intc
+[00:00:08.9264612] ImportNotFound: numpy.core.numerictypes.int_
+[00:00:08.9264645] ImportNotFound: numpy.core.numerictypes.float_
+[00:00:08.9264676] ImportNotFound: numpy.core.numerictypes.complex_
+[00:00:08.9380209] ImportNotFound: __builtin__
+[00:00:08.9382485] ImportNotFound: numpy.core.__builtin__
+[00:00:08.9383763] RecursiveImport: numpy.core
+[00:00:08.9384239] RecursiveImport: numpy.core
+[00:00:08.9429507] RecursiveImport: numpy.core
+[00:00:08.9429868] RecursiveImport: numpy.core
+[00:00:08.9460352] RecursiveImport: numpy
+[00:00:08.9464460] ImportNotFound: numpy.core.numeric.uint8
+[00:00:08.9481973] RecursiveImport: numpy.core
+[00:00:08.9587417] RecursiveImport: numpy.core
+[00:00:08.9588160] RecursiveImport: numpy.core
+[00:00:08.9590877] RecursiveImport: numpy.core
+[00:00:08.9605739] RecursiveImport: numpy.core
+[00:00:08.9772518] ImportNotFound: numpy.core.numerictypes.unicode_
+[00:00:08.9773739] ImportNotFound: numpy.core.numerictypes.string_
+[00:00:08.9773848] RecursiveImport: numpy
+[00:00:08.9792018] ImportNotFound: copy_reg
+[00:00:08.9794461] ImportNotFound: numpy.core.copy_reg
+[00:00:08.9800092] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 numpy.core._umath_tests /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:09.2689871] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/dDJOFTb5bZznR8RzTHCNEsYvVPXQdhIsx_zHwQAVJks=/_umath_tests.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:09.2714296] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 numpy.core._struct_ufunc_tests /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:09.5446094] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/dDJOFTb5bZznR8RzTHCNEsYvVPXQdhIsx_zHwQAVJks=/_struct_ufunc_tests.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:09.5546279] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 numpy.core._dummy /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:09.8643793] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/dDJOFTb5bZznR8RzTHCNEsYvVPXQdhIsx_zHwQAVJks=/_dummy.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:09.8716848] ImportNotFound: setup_common
+[00:00:09.8732761] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 binascii /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/lib-dynload
+[00:00:09.9472121] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/GkxY9_lcYmIcd_IM0lO1Y1uRal5aLHab-CMjxIorRfQ=/binascii.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:09.9593239] RecursiveImport: multiprocessing
+[00:00:09.9606801] RecursiveImport: multiprocessing
+[00:00:09.9665588] RecursiveImport: multiprocessing
+[00:00:09.9669029] ImportNotFound: multiprocessing.Process
+[00:00:09.9821025] ImportBuiltins: _thread, bin/python
+[00:00:09.9831541] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _thread
+[00:00:10.1578419] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python._thread.pyi
+[00:00:10.1661006] ImportBuiltins: time, bin/python
+[00:00:10.1673311] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 time
+[00:00:10.2350719] Scrape: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py:594: InspectWarning: failed to tokenize tm_sec, tm_wday, tm_yday, tm_isdst)
+[00:00:10.2350761] Scrape:   warnings.warn('failed to tokenize ' + expr, InspectWarning)
+[00:00:10.2350768] Scrape: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py:594: InspectWarning: failed to tokenize tm_sec,tm_wday,tm_yday,tm_isdst)
+[00:00:10.2350775] Scrape:   warnings.warn('failed to tokenize ' + expr, InspectWarning)
+[00:00:10.3412970] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python.time.pyi
+[00:00:10.3587398] RecursiveImport: multiprocessing
+[00:00:10.3587721] RecursiveImport: multiprocessing
+[00:00:10.3619760] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _multiprocessing /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/lib-dynload
+[00:00:10.4514840] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/GkxY9_lcYmIcd_IM0lO1Y1uRal5aLHab-CMjxIorRfQ=/_multiprocessing.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:10.4670221] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _random /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/lib-dynload
+[00:00:10.5345721] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/GkxY9_lcYmIcd_IM0lO1Y1uRal5aLHab-CMjxIorRfQ=/_random.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:10.5415917] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _bisect /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/lib-dynload
+[00:00:10.6090406] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/GkxY9_lcYmIcd_IM0lO1Y1uRal5aLHab-CMjxIorRfQ=/_bisect.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:10.6346112] RecursiveImport: multiprocessing
+[00:00:10.6350541] RecursiveImport: multiprocessing
+[00:00:10.6394645] RecursiveImport: multiprocessing
+[00:00:10.6422189] RecursiveImport: multiprocessing
+[00:00:10.6422583] RecursiveImport: multiprocessing
+[00:00:10.6443905] ImportNotFound: _winapi
+[00:00:10.6446008] ImportNotFound: multiprocessing._winapi
+[00:00:10.6447792] RecursiveImport: multiprocessing
+[00:00:10.6490445] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _socket /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/lib-dynload
+[00:00:10.7403770] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/GkxY9_lcYmIcd_IM0lO1Y1uRal5aLHab-CMjxIorRfQ=/_socket.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:10.7486344] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 select /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/lib-dynload
+[00:00:10.8138178] Scrape: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py:594: InspectWarning: failed to tokenize poll([timeout=-1[, maxevents=-1]]) -> [(fd, events), (...)
+[00:00:10.8138251] Scrape:   warnings.warn('failed to tokenize ' + expr, InspectWarning)
+[00:00:10.8193441] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/GkxY9_lcYmIcd_IM0lO1Y1uRal5aLHab-CMjxIorRfQ=/select.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:10.8438390] RecursiveImport: multiprocessing
+[00:00:10.8476259] RecursiveImport: multiprocessing
+[00:00:10.8491095] RecursiveImport: multiprocessing
+[00:00:10.8498277] ImportNotFound: _winapi
+[00:00:10.8498305] ImportNotFound: multiprocessing._winapi
+[00:00:10.8499615] ImportNotFound: _winapi.INFINITE
+[00:00:10.8673076] ImportNotFound: _dummy_threading
+[00:00:10.8828171] ImportBuiltins: _string, bin/python
+[00:00:10.8840610] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _string
+[00:00:10.9421012] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python._string.pyi
+[00:00:10.9649924] UndefinedImport: multiprocessing, [connection, Microsoft.PythonTools.Parsing.Ast.NameExpression:connection]
+[00:00:10.9649961] UndefinedImport: multiprocessing, [pool, Microsoft.PythonTools.Parsing.Ast.NameExpression:pool]
+[00:00:10.9649972] UndefinedImport: multiprocessing, [synchronize, Microsoft.PythonTools.Parsing.Ast.NameExpression:synchronize]
+[00:00:10.9765195] ImportNotFound: os.path.sep
+[00:00:10.9794892] ImportNotFound: os.path.pathsep
+[00:00:10.9868959] ImportNotFound: msvcrt
+[00:00:10.9872030] ImportNotFound: _winapi
+[00:00:10.9891020] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _posixsubprocess /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/lib-dynload
+[00:00:11.0521170] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/GkxY9_lcYmIcd_IM0lO1Y1uRal5aLHab-CMjxIorRfQ=/_posixsubprocess.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:11.0785136] ImportBuiltins: _imp, bin/python
+[00:00:11.0794899] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _imp
+[00:00:11.1500988] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python._imp.pyi
+[00:00:11.1643270] ImportNotFound: _importlib_modulespec
+[00:00:11.1643320] ImportNotFound: importlib._importlib_modulespec
+[00:00:11.1643359] ImportNotFound: _importlib_modulespec.ModuleSpec
+[00:00:11.1898453] ImportNotFound: os.path
+[00:00:11.1900578] ImportNotFound: numpy.core.os.path
+[00:00:11.1901686] ImportNotFound: os.path.join
+[00:00:11.2083071] ImportNotFound: nt
+[00:00:11.2671030] RecursiveImport: numpy.distutils
+[00:00:11.3562215] RecursiveImport: email.charset
+[00:00:11.3581382] RecursiveImport: email.charset
+[00:00:11.3583087] ImportNotFound: email.charset.Charset
+[00:00:11.4067105] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _datetime /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/lib-dynload
+[00:00:11.4785874] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/GkxY9_lcYmIcd_IM0lO1Y1uRal5aLHab-CMjxIorRfQ=/_datetime.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:11.4802261] RecursiveImport: datetime
+[00:00:11.5267190] RecursiveImport: email.charset
+[00:00:11.5267256] ImportNotFound: email.charset.Charset
+[00:00:11.5414191] RecursiveImport: email.policy
+[00:00:11.5471931] ImportNotFound: email.policy.Policy
+[00:00:11.5903684] RecursiveImport: email.policy
+[00:00:11.5903734] ImportNotFound: email.policy.Policy
+[00:00:11.6267962] ImportNotFound: numpy_api
+[00:00:11.6270285] ImportNotFound: numpy.core.numpy_api
+[00:00:11.6278086] ImportNotFound: genapi
+[00:00:11.6280255] ImportNotFound: numpy.core.genapi
+[00:00:11.6280749] ImportNotFound: genapi
+[00:00:11.6280771] ImportNotFound: numpy.core.genapi
+[00:00:11.6281679] ImportNotFound: genapi.FunctionApi
+[00:00:11.6282657] ImportNotFound: genapi.GlobalVarApi
+[00:00:11.6284086] ImportNotFound: genapi.BoolValuesApi
+[00:00:11.6285277] ImportNotFound: genapi.TypeApi
+[00:00:11.6291448] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 numpy.core._multiarray_tests /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:11.9074065] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/dDJOFTb5bZznR8RzTHCNEsYvVPXQdhIsx_zHwQAVJks=/_multiarray_tests.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:11.9099929] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 numpy.core._rational_tests /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:12.2233242] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/dDJOFTb5bZznR8RzTHCNEsYvVPXQdhIsx_zHwQAVJks=/_rational_tests.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:12.2264994] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 numpy.core._operand_flag_tests /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:12.5096363] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/dDJOFTb5bZznR8RzTHCNEsYvVPXQdhIsx_zHwQAVJks=/_operand_flag_tests.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:12.5129145] ImportNotFound: os.path
+[00:00:12.5129181] ImportNotFound: numpy.core.os.path
+[00:00:12.5131043] ImportNotFound: os.path.dirname
+[00:00:12.5337550] ImportNotFound: numpy.core.double
+[00:00:12.5339821] ImportNotFound: numpy.core.single
+[00:00:12.5342457] ImportNotFound: numpy.core.cdouble
+[00:00:12.5344004] RecursiveImport: numpy.linalg
+[00:00:12.5348541] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 numpy.linalg._umath_linalg /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:12.8199599] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/bcqcZxtmIapR5yYSClV1QM0UNPq3EwMvScU0gxjZLoY=/_umath_linalg.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:12.8361430] ImportNotFound: numpy.core.numeric.int8
+[00:00:12.8362913] ImportNotFound: numpy.core.numeric.int16
+[00:00:12.8364258] ImportNotFound: numpy.core.numeric.int32
+[00:00:12.8365641] ImportNotFound: numpy.core.numeric.int64
+[00:00:12.8525110] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 numpy.linalg.lapack_lite /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:13.0200276] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/bcqcZxtmIapR5yYSClV1QM0UNPq3EwMvScU0gxjZLoY=/lapack_lite.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:13.0223482] ImportNotFound: lapack_lite
+[00:00:13.0241450] ImportNotFound: numpy.core.csingle
+[00:00:13.0243762] ImportNotFound: numpy.core.inexact
+[00:00:13.0246063] ImportNotFound: numpy.core.complexfloating
+[00:00:13.0248405] ImportNotFound: numpy.core.intp
+[00:00:13.0250674] ImportNotFound: numpy.core.object_
+[00:00:13.0301167] ImportBuiltins: _ast, bin/python
+[00:00:13.0311168] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _ast
+[00:00:13.2030970] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python._ast.pyi
+[00:00:13.2280290] RecursiveImport: numpy.lib
+[00:00:13.2489784] RecursiveImport: numpy
+[00:00:13.2495063] RecursiveImport: numpy
+[00:00:13.2543108] RecursiveImport: numpy
+[00:00:13.2551333] ImportNotFound: numpy.core.numeric.intp
+[00:00:13.2552513] ImportNotFound: numpy.core.numeric.integer
+[00:00:13.2553943] ImportNotFound: numpy.core.numerictypes.number
+[00:00:13.2554230] ImportNotFound: __builtin__
+[00:00:13.2557066] ImportNotFound: numpy.lib.__builtin__
+[00:00:13.2576165] RecursiveImport: numpy
+[00:00:13.2613349] RecursiveImport: numpy
+[00:00:13.2616519] RecursiveImport: numpy.lib
+[00:00:13.2700365] RecursiveImport: numpy
+[00:00:13.2758112] ImportNotFound: cPickle
+[00:00:13.2761113] ImportNotFound: numpy.lib.cPickle
+[00:00:13.2763156] RecursiveImport: numpy.lib
+[00:00:13.2929668] RecursiveImport: numpy
+[00:00:13.2930425] ImportNotFound: cPickle
+[00:00:13.2930455] ImportNotFound: numpy.lib.cPickle
+[00:00:13.2935192] RecursiveImport: numpy
+[00:00:13.2958576] ImportNotFound: __builtin__
+[00:00:13.2958614] ImportNotFound: numpy.lib.__builtin__
+[00:00:13.2959913] ImportNotFound: __builtin__.object
+[00:00:13.2963132] RecursiveImport: numpy
+[00:00:13.2982504] ImportNotFound: future_builtins
+[00:00:13.2984842] ImportNotFound: numpy.lib.future_builtins
+[00:00:13.2985888] ImportNotFound: future_builtins.map
+[00:00:13.3064862] RecursiveImport: numpy
+[00:00:13.3095123] RecursiveImport: numpy
+[00:00:13.3144542] ImportNotFound: numpy.lib.info.__doc__
+[00:00:13.3192014] RecursiveImport: numpy
+[00:00:13.3386699] RecursiveImport: numpy
+[00:00:13.3393216] RecursiveImport: numpy
+[00:00:13.3396703] ImportNotFound: numpy.ndarray
+[00:00:13.3428504] RecursiveImport: numpy
+[00:00:13.3431062] ImportNotFound: numpy.array
+[00:00:13.3432797] ImportNotFound: __builtin__
+[00:00:13.3434743] ImportNotFound: numpy.ma.__builtin__
+[00:00:13.3455073] RecursiveImport: numpy
+[00:00:13.3457352] ImportNotFound: numpy.expand_dims
+[00:00:13.3463335] ImportNotFound: cPickle
+[00:00:13.3465413] ImportNotFound: numpy.ma.cPickle
+[00:00:13.3470920] ImportNotFound: numpy.amax
+[00:00:13.3472904] ImportNotFound: numpy.amin
+[00:00:13.3474888] ImportNotFound: numpy.iscomplexobj
+[00:00:13.3476987] ImportNotFound: numpy.bool_
+[00:00:13.3478828] ImportNotFound: numpy._NoValue
+[00:00:13.3531806] RecursiveImport: numpy
+[00:00:13.3534243] RecursiveImport: numpy.ma
+[00:00:13.3540793] RecursiveImport: numpy
+[00:00:13.3540838] ImportNotFound: numpy.array
+[00:00:13.3550154] ImportNotFound: numpy.ndarray
+[00:00:13.3655651] RecursiveImport: numpy
+[00:00:13.3658757] RecursiveImport: numpy
+[00:00:13.3661759] ImportNotFound: numpy.recarray
+[00:00:13.3662629] ImportNotFound: numpy.ndarray
+[00:00:13.3662877] ImportNotFound: numpy.array
+[00:00:13.3674618] ImportNotFound: numpy.dtype
+[00:00:13.3678944] RecursiveImport: numpy
+[00:00:13.3678976] ImportNotFound: numpy.recarray
+[00:00:13.3679093] ImportNotFound: numpy.ndarray
+[00:00:13.3726954] ImportNotFound: __builtin__
+[00:00:13.3727003] ImportNotFound: numpy.core.__builtin__
+[00:00:13.3728229] ImportNotFound: __builtin__.str
+[00:00:13.3854328] ImportNotFound: pkg_resources.extern.packaging
+[00:00:13.3912635] ImportNotFound: os.path.devnull
+[00:00:13.4147043] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 pyexpat /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/lib-dynload
+[00:00:13.4825712] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/GkxY9_lcYmIcd_IM0lO1Y1uRal5aLHab-CMjxIorRfQ=/pyexpat.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:13.4880691] ImportNotFound: pyexpat.errors
+[00:00:13.4882539] ImportNotFound: pyexpat.model
+[00:00:13.5054921] ImportNotFound: os.path
+[00:00:13.5141351] ImportNotFound: pkg_resources.extern.six.moves
+[00:00:13.5142677] ImportNotFound: pkg_resources.pkg_resources.extern.six.moves
+[00:00:13.5143861] ImportNotFound: pkg_resources.extern.six.moves.map
+[00:00:13.5149365] ImportNotFound: pkg_resources.extern.six.moves.urllib
+[00:00:13.5150870] ImportNotFound: pkg_resources.extern.six.moves.filter
+[00:00:13.5251359] ImportNotFound: os.path
+[00:00:13.5253268] ImportNotFound: pkg_resources.os.path
+[00:00:13.5254240] ImportNotFound: os.path.split
+[00:00:13.5317724] ImportBuiltins: zipimport, bin/python
+[00:00:13.5328843] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 zipimport
+[00:00:13.6009419] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/60LVJu8li3ibWUEuCiCGA2_97dN5I7w-5ShakK9JzGw=/python.zipimport.pyi
+[00:00:13.6389570] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 _regex /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:13.7960830] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/JZcHDT1SFIXotlnPywVWWofbUlgPrX8RoodbOkVjwtA=/_regex.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:13.8138280] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 unicodedata /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/lib-dynload
+[00:00:13.9887163] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/GkxY9_lcYmIcd_IM0lO1Y1uRal5aLHab-CMjxIorRfQ=/unicodedata.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:14.0146752] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 ujson /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:14.0788062] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/JZcHDT1SFIXotlnPywVWWofbUlgPrX8RoodbOkVjwtA=/ujson.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:14.0856545] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 thinc.neural.ops /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:14.3263004] Scrape: /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+[00:00:14.3263021] Scrape:   return f(*args, **kwds)
+[00:00:14.3263026] Scrape: /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+[00:00:14.3263029] Scrape:   return f(*args, **kwds)
+[00:00:14.4529583] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/PEvDkxgZ-JO9luyqcKiYdqUCSRRnZWNJep6VI6Wy5LE=/ops.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:14.4672434] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 thinc.neural.optimizers /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:14.6747091] Scrape: /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+[00:00:14.6747119] Scrape:   return f(*args, **kwds)
+[00:00:14.6747126] Scrape: /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+[00:00:14.6747132] Scrape:   return f(*args, **kwds)
+[00:00:14.8034625] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/PEvDkxgZ-JO9luyqcKiYdqUCSRRnZWNJep6VI6Wy5LE=/optimizers.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:14.8064806] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 numpy.random.mtrand /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:15.0974706] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/6OrNXlXdOMpFOX1UPP2BScSfXtFaA10vdsWKjN8TC28=/mtrand.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:15.1106378] ImportNotFound: mtrand
+[00:00:15.1213470] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 cytoolz.itertoolz /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:15.2754259] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/anCdqpsiYeRS7i6vEz97JMqyALP0w4jpzxfrPL5kGuw=/itertoolz.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:15.2924676] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 cytoolz.functoolz /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:15.4056382] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/anCdqpsiYeRS7i6vEz97JMqyALP0w4jpzxfrPL5kGuw=/functoolz.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:15.4761721] ImportNotFound: itertools.izip
+[00:00:15.4763427] ImportNotFound: itertools.imap
+[00:00:15.4766247] ImportNotFound: itertools.ifilter
+[00:00:15.4768094] RecursiveImport: toolz.functoolz
+[00:00:15.4823001] RecursiveImport: toolz.functoolz
+[00:00:15.4824577] ImportNotFound: toolz.functoolz.is_partial_args
+[00:00:15.4826172] ImportNotFound: toolz.functoolz.is_arity
+[00:00:15.4827565] ImportNotFound: toolz.functoolz.has_varargs
+[00:00:15.4828809] ImportNotFound: toolz.functoolz.has_keywords
+[00:00:15.4830046] ImportNotFound: toolz.functoolz.num_required_args
+[00:00:15.4854067] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 cytoolz.dicttoolz /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:15.6783143] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/anCdqpsiYeRS7i6vEz97JMqyALP0w4jpzxfrPL5kGuw=/dicttoolz.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:15.6811773] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 cytoolz.recipes /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:15.7791301] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/anCdqpsiYeRS7i6vEz97JMqyALP0w4jpzxfrPL5kGuw=/recipes.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:15.7944242] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 msgpack._unpacker /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[00:00:15.9708904] WriteCachedModule: /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/4fmCKGrw02xWOuuhTlqK8X6Cfvth0QhpxIneH8bB8tU=/_unpacker.cpython-36m-x86_64-linux-gnu.pyi
+[00:00:15.9837307] RecursiveImport: msgpack
+[00:00:15.9921611] RecursiveImport: spacy
+[02:06:12.2627700] Scrape: /home/dhanesh/anaconda3/envs/spacy/bin/python, -B -E /home/dhanesh/.vscode/extensions/ms-python.python-2018.8.0/languageServer/scrape_module.py -u8 spacy.tokens.doc /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/site-packages
+[02:06:12.8462162] Scrape: /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+[02:06:12.8462241] Scrape:   return f(*args, **kwds)
+[02:06:12.8462251] Scrape: /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+[02:06:12.8462259] Scrape:   return f(*args, **kwds)
+[02:06:12.8462308] Scrape: /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+[02:06:12.8462316] Scrape:   return f(*args, **kwds)
+[02:06:12.8462322] Scrape: /home/dhanesh/anaconda3/envs/spacy/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+[02:06:12.8462328] Scrape:   return f(*args, **kwds)

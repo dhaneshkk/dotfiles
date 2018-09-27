@@ -1,0 +1,75 @@
+{
+	"name": "vscode-languagetool",
+	"displayName": "LanguageTool for Visual Studio Code",
+	"preview": false,
+	"description": "LanguageTool grammar checking for Visual Studio Code.",
+	"author": "Adam Voss",
+	"license": "Apache-2.0",
+	"version": "3.8.0",
+	"publisher": "adamvoss",
+	"repository": {
+		"url": "https://github.com/adamvoss/vscode-languagetool"
+	},
+	"icon": "img/LanguageTool-Icon.png",
+	"galleryBanner": {
+		"color": "#6565f6",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.8.0"
+	},
+	"keywords": [
+		"spell",
+		"grammar",
+		"proofread",
+		"checker",
+		"grammar-checker"
+	],
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:plaintext",
+		"onLanguage:markdown"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "LanguageTool Language Server configuration",
+			"properties": {
+				"languageTool.language": {
+					"type": "string",
+					"default": "en",
+					"description": "The language LanguageTool should check against"
+				},
+				"languageTool.enabled": {
+					"type": "boolean",
+					"default": true,
+					"description": "Allow to enable languageTool on specific workspaces"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./ && ./lib/languagetool-languageserver/gradlew --project-dir ./lib/languagetool-languageserver/ installDist",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"update-vscode": "node ./node_modules/vscode/bin/install",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.33",
+		"@types/node": "^6.0.52",
+		"typescript": "^2.1.5",
+		"vscode": "^1.0.3"
+	},
+	"dependencies": {
+		"vscode-languageclient": "^3.1.0"
+	},
+	"__metadata": {
+		"id": "5b45bff0-e35e-4317-8686-1625c2a9c411",
+		"publisherId": "bcc84b7b-7923-41b3-80e2-0dce99cc0f2f",
+		"publisherDisplayName": "Adam Voss"
+	}
+}

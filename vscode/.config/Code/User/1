@@ -1,0 +1,15 @@
+{
+    "python.jediEnabled": false,
+    "files.autoSave": "afterDelay",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "telemetry.enableTelemetry": false,
+    "[javascript]": {
+        
+    },
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "git.autofetch": true
+}
